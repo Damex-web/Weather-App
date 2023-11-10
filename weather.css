@@ -34,7 +34,7 @@ body {
     outline: 0;
     background: #befffc;
     padding: 10px 25px;
-    height: 50px;
+    height: 70px;
     color: #555;
     flex: 1;
     font-size: 18px;
@@ -47,10 +47,11 @@ body {
     outline: 0;
     background: #befffc;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 70px;
     padding: 15px;
     font-size: 2em;
+    text-align: center;
+    
 }
 .weather-icon {
     width: 150px;
