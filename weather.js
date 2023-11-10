@@ -1,5 +1,5 @@
 
-var apiKey = window.env.API_KEY;
+var apiKey = "a2fda483157c2b2850c3f0bfbcd73a12";
 var searchBox = document.querySelector(".search input");
 var searchBtn = document.querySelector(".search button");
 var weatherIcon = document.querySelector(".weather-icon");
