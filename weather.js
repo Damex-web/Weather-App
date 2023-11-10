@@ -17,7 +17,7 @@ async function checkWeather(city) {
     var response = await fetch(`${apiurl}&appid=${apiKey}`);    
     
     if (response.status == 404){
-        alert(document.querySelector(".error").style.display = "block");
+        document.querySelector(".error").style.display = "block";
     }
     
     var data = await response.json();
