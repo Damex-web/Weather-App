@@ -23,7 +23,7 @@ body {
 }
 
 .search {
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,8 +33,8 @@ body {
     border: 0;
     outline: 0;
     background: #befffc;
-    padding: 10px 10px;
-    height: 45px;
+    padding: 10px 25px;
+    height: 50px;
     color: #555;
     flex: 1;
     font-size: 18px;
@@ -45,8 +45,7 @@ body {
 .search button {
     border: 0;
     outline: 0;
-    /*background: #befffc;*/
-    border: 1px solid red;
+    background: #befffc;
     border-radius: 50%;
     width: 50px;
     padding: 10px;
