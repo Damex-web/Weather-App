@@ -4,11 +4,11 @@ var searchBox = document.querySelector(".search input");
 var searchBtn = document.querySelector(".search button");
 var weatherIcon = document.querySelector(".weather-icon");
 var weatherImages = {
-    "Clouds": "images/clouds.png",
-    "Clear": "images/clear.png",
-    "Rain": "images/rain.png",
-    "Drizzle": "images/drizzle.png",
-    "Mist": "images/mist.png"
+    "Clouds": "clouds.png",
+    "Clear": "clear.png",
+    "Rain": "rain.png",
+    "Drizzle": "drizzle.png",
+    "Mist": "mist.png"
 };
 
 async function checkWeather(city) {
