@@ -37,7 +37,6 @@ async function checkWeather(city) {
     } else {
         weatherIcon.src = "images/default.png";
     }finally {
-        // Hide the loading spinner when the request completes.
         loadingSpinner.style.display = 'none';
     }    
   } 
