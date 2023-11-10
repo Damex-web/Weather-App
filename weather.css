@@ -34,9 +34,9 @@ body {
     outline: 0;
     background: #befffc;
     padding: 10px 10px;
-    height: 50px;
+    height: 45px;
     color: #555;
-    flex: 0.5;
+    flex: 1;
     font-size: 18px;
     margin-right: 10px;
     border-radius: 30px; 
@@ -45,7 +45,8 @@ body {
 .search button {
     border: 0;
     outline: 0;
-    background: #befffc;
+    /*background: #befffc;*/
+    border: 1px solid red;
     border-radius: 50%;
     width: 50px;
     padding: 10px;
