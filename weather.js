@@ -32,7 +32,7 @@ async function checkWeather(city) {
     if (weatherImages[weatherMain]) {
         weatherIcon.src = weatherImages[weatherMain];
     } else {
-        weatherIcon.src = "images/default.png";
+        weatherIcon.src = "default.png";
     }    
   } 
 
